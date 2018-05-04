@@ -1,0 +1,379 @@
+*{padding: 0; margin: 0;}
+img{border: none;}
+ul,li,dl{list-style: none;}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5,h6,i,em {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal
+}
+input,button,textarea,select {
+	font-size: 100%;
+	outline: 0;
+	vertical-align: middle
+}
+textarea {
+	resize: none
+}
+body{font-family: "微软雅黑"; font-size: 12px; overflow-y: scroll;}
+*{box-sizing: content-box; -webkit-box-sizing: content-box;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+/*::-webkit-scrollbar {
+     width: 12px; 
+     height:150px; 
+     cursor: pointer; 
+}
+::-webkit-scrollbar-thumb{
+	background-color: #999;
+     height: 50px; 
+    width: 16px !important;
+    height: 243px !important;
+    outline: 2px solid #999;
+}*/
+
+/*关于我们*/
+.yqx_about_content{overflow: hidden;}
+.yqx_about_nav{width: 100%; border-bottom: 1px solid #e5e2e2; padding: 40px 0 27px; height: 25px; overflow: hidden;position: relative;}
+.yqx_about_nav ul{width: 1000px; overflow: hidden;position: absolute;left: calc(50% - 500px);}
+.yqx_about_nav li{float: left; height: 25px; text-align: center;  padding: 0 19px; background: url("../../../img/site/about/icon_about.png")/*tpa=http://1.rc.xiniu.com/img/site/about/icon_about.png*/ no-repeat left -135px; }
+.yqx_about_nav li:first-child{margin-left: -20px;}
+.yqx_about_nav li a{color: #3d3d3d; font-size: 13px; height: 23px; line-height: 14px; display:block; border-width: 0px;position: relative; text-align: center;}
+.yqx_about_nav li.active a,.yqx_about_nav li:hover a{ color: #b10000;}
+.yqx_about_nav li i{position: absolute; left: 0; bottom: 0; width:0; height: 2px; background-color: #b10000; transition: 0.4s;}
+.yqx_about_nav li.active i,.yqx_about_nav li:hover i{width: 100%; transition: 0.4s;}
+
+.h_about_m{width: 1000px; margin: 0 auto; color: #858585; font-size: 12px; line-height: 24px;}
+.h_about_m section header{padding-top:50px;}
+.h_about_m section header span{color: #292929; font-size: 26px; border-bottom: 1px solid #d85431; display: inline-block; height: 42px; border-bottom: 2px solid #d85431; line-height:35px; margin-bottom: -1px;}
+.h_about_m header{width: 100%; border-bottom: 1px solid #e0e0e0;}
+.h_about_m section article{padding-top: 40px; margin-bottom: 20px;}
+.about_eims img{float: left; width: 258px; margin-right:55px; }
+
+.about_xiniu img{float: right; margin-right: 74px;    padding-top: 117px;}
+.about_xniu_intro{width: 400px; }
+.about_xniu_intro h4{width: 100%;color: #b10000; font-size: 16px; margin-bottom: 10px;}
+
+.about_research article{overflow: hidden;}
+.h_about_m .about_research header{padding-top: 30px;}
+.about_research_left,.about_research_right{float: left; width: 500px;}
+.about_research_intro{width: 408px;}
+.about_research_intro p.red{color: #cc0c19; font-size: 13px; margin-bottom: 20px;}
+.about_research_right ul{overflow: hidden; width: 540px;}
+.about_research_right li{overflow: hidden; width: 261px; padding-left: 8px; float: left; height: 77px; padding: 20px 0; color: #000000; line-height: 22px; font-size: 13px;}
+.about_research_right i{width: 68px; height: 68px; display: inline-block; margin-right: 20px; float: left; background: url(../images/icon_about.png)/*tpa=http://1.rc.xiniu.com/img/site/about/icon_about.png*/ no-repeat;}
+.research_right_01 i{background-position: 0 0;}
+.research_right_02 i{background-position: 0 -68px;}
+.research_right_03 i{background-position: -68px 0;}
+.research_right_04 i{background-position: -68px -68px;}
+.about_research li em{font-weight: bold;}
+.research_right_01 em{color: #ed7025;}
+.research_right_02 em{color: #e9480a;}
+.research_right_03 em{color: #d7000f;}
+.research_right_04 em{color: #df801c;}
+
+.about_m_wrap{overflow: hidden;}
+.about_customer,.about_honor{float: left;width: 480px;}
+.about_honor{margin-left: 40px;}
+.about_customer_intro{font-size: 14px; color: #000000; margin-left: 13px; padding-left:18px; line-height: 28px; background: url("../../../img/site/about/icon_about.png")/*tpa=http://1.rc.xiniu.com/img/site/about/icon_about.png*/ no-repeat -130px -132px;}
+.about_customer_intro em{font-size: 18px; color: #d7000f; font-weight: bold;}
+
+.about_honor li{width: 142px; height:130px; float: left; margin: 0 8px 26px; cursor: pointer;}
+.about_honorImg{ display: block; border: 1px solid #e4e4e4; width: 140px; height: 97px;}
+.about_honorImg img{width: 123px; height: 86px; margin: 6px 8px;}
+.about_honor_title{text-align: center; line-height: 30px; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;color: #787878;}
+.about_honor li:hover .about_honor_title{color: #d85431;}
+.about_honor li:hover .about_honorImg{border: 1px solid #d85431;}
+
+.about_envirBox{position: relative; overflow: hidden; height: 358px; left: 0;}
+.about_envirImg1{width: 100%; position: absolute; top: 0;}
+.about_envirImg1 img{width: 195px; height: 116px;} 
+.about_envirBox .about_envirImg1 li{position: absolute; top: 0; cursor: pointer; overflow: hidden;}
+.about_envirBox .about_envirImg1 .envirImg02{ left: 0; top: 121px;}
+.about_envirBox .about_envirImg1 .envirImg03{ left: 0; top: 242px;}
+.about_envirBox .about_envirImg1 .envirImg04{top: 0; right: 0;}
+.about_envirBox .about_envirImg1 .envirImg05{top: 121px; right: 0;}
+.about_envirBox .about_envirImg1 .envirImg06{top: 242px; right: 0;}
+
+
+.about_envirImg2{left: 198px;width: 603px; height: 358px; position: absolute; top: 0;}
+.about_envirImg2 img{width: 603px; height: 358px; z-index: 9;}
+.about_envirImg2 li{position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; filter:alpha(oPacity=0);transition: 0.5s; cursor: pointer;}
+.about_envirImg2 li.active{opacity: 1; filter:alpha(oPacity=100); transition: 0.5s;}
+.about_envirImg2_bar{position: absolute;width: 120px; height: 20px; bottom: 15px; border-radius: 10px; background-color:rgba(255,255,255,.75); left: 50%; margin-left: -60px; font-size: 0; text-align: center; background: url("../../../img/site/about/icon_about.png")/*tpa=http://1.rc.xiniu.com/img/site/about/icon_about.png*/ no-repeat -137px 0\9;}
+.about_envirImg2_bar span{background-color:#d1d0d0; width: 10px; height: 10px; border-radius: 5px; display: inline-block; font-size: 12px; margin-left: 7px; margin-top: 5px; cursor: pointer;  background: url("../../../img/site/about/icon_about.png")/*tpa=http://1.rc.xiniu.com/img/site/about/icon_about.png*/ no-repeat -150px -30px\9;} 
+.about_envirImg2_bar span:first-child{margin-left: 0;}
+.about_envirImg2_bar span.active{background-color: #cd0202; background-color: transparent\9; background-position: -150px -60px\9;}
+
+.about_eims_intro,.about_research_shopintro,.about_research_intro{text-indent:2em;}
+.h_about_m section header em{color: #656565; font-size:14px; letter-spacing:1px; padding-left:5px; text-transform: uppercase; font-family:"微软雅黑";}
+
+/*法律条款*/
+.ywz_zhongjian_bg_base1 {
+	margin: 50px 0 20px;
+  overflow: hidden;
+}
+
+.ywz_fali_lv_yi_kuang_re {
+  height: auto;
+  padding: 0px 40px 20px 40px;
+}
+
+.ywz_rc_yingping_yi_kuang {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+.ywz_falv_tiaokuang_wenti_zhuti {
+  width: 100%;
+  border-bottom: 1px dashed #dadada;
+}
+.ywz_falv_tiaokuang_wenti_zhuti span{
+	color:#e00a14; font-size: 18px; line-height: 24px;
+}
+.h_about_wenti_zhuti{border-bottom: 1px solid #e0e0e0;}
+
+.h_about_wenti_zhuti span{
+	color: #292929;
+    font-size:22px;
+    display: inline-block;
+    height: 35px;
+    border-bottom: 2px solid #d85431;
+    line-height: 30px;
+    margin-bottom: -1px;
+}
+.ywz_dibu_neir_wenzi_dibu {
+  float: left;
+  color: #5a5a5a;
+  width: auto;
+  height: auto;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 20px 0 40px;
+  text-indent:2em;
+}
+/*人才招聘*/
+.ywz_zhongjian_bg_base {
+  border: 1px #dcdcdc solid;
+  overflow: hidden;
+}
+.About_box {
+  width: 1000px;
+  margin:0px auto;
+  padding-bottom: 30px;
+  padding-top:50px;
+}
+.ywz_fali_lv_yi_kuang_re {
+  float: left;
+  width: 920px;
+  height: auto;
+  padding: 0px 40px 20px 40px;
+}
+
+.ywz_rc_zhaopin_wenzi_dibu {
+  width: 920px;
+  height: auto;
+  color: #007ba9;
+  line-height: 30px;
+  border-bottom: 1px dashed #dadada;
+  padding-top: 15px;
+}
+
+.ywz_rc_zhaop_riqi_hong {
+  width: auto;
+  height: auto;
+  line-height: 22px;
+  color: #ff0000;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.ywz_rc_wenzi_yi_dibu {
+  width: auto;
+  height: auto;
+  line-height: 26px;
+  color: #6a6a6a;
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+.ywz_rc_yingping_yi_kuang {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+
+.ywz_rc_yingping_left_yiyi {
+  float: left;
+  width: 4px;
+  height: 25px;
+}
+
+.ywz_rc_yingping_zhong_yiyi {
+  float: left;
+  width: 100px;
+  height: 25px;
+}
+
+.ywz_rc_youxing {
+  float: left;
+  margin: 5px 5px 0 5px;
+}
+
+.ywz_rc_yingp_dianjie_yiu, .ywz_rc_yingp_dianjie_yiu a, .ywz_rc_yingp_dianjie_yiu a:hover {
+  float: left;
+  font-size: 12px;
+  color: #8a8e8f;
+  height: 25px;
+  line-height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*联系我们*/
+.contact_top_box{width:902px;height:281px;margin:0 auto;padding:56px 0 40px 0;background:url("../../../img/site/about/company_map.jpg")/*tpa=http://1.rc.xiniu.com/img/site/about/company_map.jpg*/ no-repeat right top 56px;background-size:477px 281px;}
+.contact_top_box .top_cont_box{width:400px;height:237px;border-bottom:2px solid #ffd1ad;}
+.contact_top_box .tel_num{color:#e22323;font-size:32px;padding-bottom: 15px;font-family:Impact;}
+.contact_top_box .h_line{width:42px;height:4px;background-color:#ff8d31;}
+.contact_top_box .en_txt{width:184px;font-size:13px;color:#8a8a8a;border-top:1px solid #d5d5d5;padding-top:15px;margin-top:22px;}
+.contact_top_box .headquarters{font-size:20px;color:#4d4d4d;font-weight:600;padding-top:30px;}
+.contact_top_box .address{font-size:14px;color:#8b8b8b;padding-top:12px;}
+.contact_top_box .tel_num2{font-size:14px;color:#8b8b8b;padding-top:8px;}
+.contact_top_box .tel1{padding-right:20px;}
+
+.h_contact_m{width:998px;height:auto;margin:50px auto 30px auto;overflow:hidden;border:1px solid #e6e6e6;}
+.contact_top{
+width: 910px;margin:0 auto;
+border-bottom: 1px solid #e0e0e0;margin-top:22px;
+}
+.contact_top span{
+color: #292929;
+font-size: 26px;
+border-bottom: 1px solid #d85431;
+display: inline-block;
+height: 42px;
+border-bottom: 2px solid #d85431;
+line-height: 35px;
+margin-bottom: -1px;
+}
+.contact_top em {
+color: #656565;
+font-size: 14px;
+letter-spacing: 1px;
+padding-left: 25px;
+text-transform: uppercase;
+font-family: "microsoft yahei";
+}
+.contact_cen1{width: 910px;margin:0 auto;height:205px;overflow:hidden;}
+.contact_cen1 dl{height:205px;overflow:hidden;}
+.contact_cen1 dt{width:92px;height:205px;overflow:hidden;float: left;padding-right:19px;text-align:center;margin-right:43px;background:url("../../../img/site/about/ct_gx.png")/*tpa=http://1.rc.xiniu.com/img/site/about/ct_gx.png*/ no-repeat right center;}
+.contact_cen1 dt b{height:44px;line-height:44px;overflow:hidden;margin-top:74px;font-size:24px;color:#d01111;display:block;}
+.contact_cen1 dt span{height:18px;line-height:18px;overflow:hidden;font-size:12px;color:#acacac;display:block;text-transform:uppercase;}
+.contact_cen1 dd{width:756px;height:205px;overflow:hidden;float:left;}
+.contact_cen1 dd h3{height:36px;line-height:36px;overflow:hidden;font-size:20px;color:#4d4d4d;font-weight:bold;margin-top:54px;}
+.contact_cen1 dd h4,.contact_cen1 dd h5{height:30px;line-height:30px;overflow:hidden;font-size:14px;color:#5a5a5a;margin-bottom:5px;}
+.contact_cen1 dd h5{margin-top:0;}
+.contact_cen1 dd h5 span{margin-right:24px;}
+.contact_cen2{width:927px;height:60px;overflow:hidden;background:url("../../../img/site/about/ct_telbg.jpg")/*tpa=http://1.rc.xiniu.com/img/site/about/ct_telbg.jpg*/ no-repeat;margin:0 auto;}
+.contact_cen2 i{width:34px;height:34px;overflow:hidden;float: left;margin:12px 84px 0 34px;background:url("../../../img/site/about/ct_tel.png")/*tpa=http://1.rc.xiniu.com/img/site/about/ct_tel.png*/ no-repeat;}
+.contact_cen2 span{height:60px;line-height:60px;overflow:hidden;float:left;margin-right:28px;font-size:16px;color:#2c2c2c;}
+.contact_cen2 span b{font-size:18px;color:#e22323;font-weight:bold;}
+.contact_cen2 em{height:60px;line-height:60px;overflow:hidden;float:left;font-size:16px;color:#f3d188;margin-right:33px;}
+.contact_cen3{width:942px;height:auto;overflow:hidden;margin:0 auto;padding:28px;}
+.contact_cen3 dl{width:400px;height:197px;overflow:hidden;border-bottom:1px dashed #e2e1e1;float:left;padding-right:71px;}
+.contact_cen3 dt{width:97px;height:205px;overflow:hidden;float: left;padding-right:19px;text-align:center;margin-right:38px;background:url("../../../img/site/about/ct_gx.png")/*tpa=http://1.rc.xiniu.com/img/site/about/ct_gx.png*/ no-repeat right center;}
+.contact_cen3 dt b{height:44px;line-height:44px;overflow:hidden;margin-top:74px;font-size:24px;color:#d01111;display:block;}
+.contact_cen3 dt span{height:18px;line-height:18px;overflow:hidden;font-size:12px;color:#acacac;display:block;text-transform:uppercase;}
+.contact_cen3 dd{width:245px;height:205px;overflow:hidden;float:left;}
+.contact_cen3 dd h3{height:34px;line-height:34px;overflow:hidden;font-size:14px;color:#000000;margin-top:29px;margin-bottom:11px;font-weight:bold;}
+.contact_cen3 dd h4{height:auto;line-height:23px;overflow:hidden;font-size:12px;color:#8b8b8b;}
+.contact_cen3 dd h5{height:23px;line-height:23px;overflow:hidden;font-size:12px;color:#8b8b8b;}
+.contact_cen3 dd h5{margin-top:0;}
+
+
+/*联系我们*/
+.contact_box { width: 1200px; min-height: 307px; margin: 0 auto; background: url("../../../img/site/about/contact_us_bg.png")/*tpa=http://1.rc.xiniu.com/img/site/about/contact_us_bg.png*/ no-repeat left 50px top 35px, #fff; background-color: #fff; padding-bottom: 90px; }
+.contact_box .contact_cont { width: 940px; min-height: 307px; margin: 0 auto; padding-top: 155px; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .head_office { width: 100%; height: 155px; padding-bottom: 70px; border-bottom: 1px dashed #e8e8e8; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .head_office .head_city { width: 450px; height: 80px; line-height: 80px; float: left; text-align: right; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .head_office .head_city span:first-child { font-size: 24px; color: #565656; }
+.contact_box .head_office .head_city span:last-child { font-size: 14px; color: #848383; }
+.contact_box .head_office .head_city span { margin-right: 25px; }
+.contact_box .head_office .head_msg { width: 490px; float: left; font-size: 14px; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .head_office .head_msg .tel_msg { color: #444; width: 100%; height: 20px; padding-bottom: 15px; border-bottom: 1px solid #e8e8e8; }
+.contact_box .head_office .head_msg .tel_msg > div { float: left; }
+.contact_box .head_office .head_msg .tel_msg > div:last-child { float: right; }
+.contact_box .head_office .head_msg .tel_msg .tel_num { color: #e52f35; font-weight: 600; }
+.contact_box .head_office .head_msg .tel_msg .line { width: 34px; height: 19px; }
+.contact_box .head_office .head_msg .tel_msg .line i { display: block; width: 1px; height: 19px; margin: 0 auto; border-right: 2px solid #f4f4f4; }
+.contact_box .head_office .head_msg .address_msg { margin-top: 15px; min-height: 12px; font-size: 12px; color: #848383; }
+.contact_box .head_office .head_msg .address_msg .addr, .contact_box .head_office .head_msg .address_msg .tel, .contact_box .head_office .head_msg .address_msg .faxes { padding-left: 26px; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .head_office .head_msg .address_msg .addr_t { width: 100%; min-height: 25px; }
+.contact_box .head_office .head_msg .address_msg .addr_t .addr { float: left; background: url("../../../img/site/about/h_icon_pro6.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro6.png*/ no-repeat left center; }
+.contact_box .head_office .head_msg .address_msg .addr_t .tel { float: right; background: url("../../../img/site/about/h_icon_pro7.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro7.png*/ no-repeat left center; }
+.contact_box .head_office .head_msg .address_msg .addr_b { width: 100%; min-height: 12px; }
+.contact_box .head_office .head_msg .address_msg .addr_b .faxes { background: url("../../../img/site/about/h_icon_pro8.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro8.png*/ no-repeat left center; }
+.contact_box .branch_list { width: 100%; min-height: 155px; }
+.contact_box .branch_list > ul { width: 100%; overflow: hidden; }
+.contact_box .branch_list > ul > li { width: 50%; height: 155px; border-bottom: 1px dashed #e8e8e8; float: left; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .branch_list > ul > li:nth-child(2n+2) { padding-left: 50px; }
+.contact_box .branch_list > ul > li .city { width: 100px; height: 155px; float: left; }
+.contact_box .branch_list > ul > li .city .c_cont { width: 100%; padding-top: 50%; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .branch_list > ul > li .city .c_cont .c_name { font-size: 18px; color: #565656; }
+.contact_box .branch_list > ul > li .city .c_cont .en_name { font-size: 12px; color: #848383; }
+.contact_box .branch_list > ul > li .city_msg { width: 320px; height: 155px; float: left; font-size: 12px; color: #848383; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont { width: 100%; padding-top: 11%; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont ul { width: 100%; overflow: hidden; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont ul li { width: 100%; min-height: 20px; line-height: 20px; margin-bottom: 5px; padding-left: 20px; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont ul li.addr { background: url("../../../img/site/about/h_icon_pro6.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro6.png*/ no-repeat left 4px; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont ul li.tel { background: url("../../../img/site/about/h_icon_pro7.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro7.png*/ no-repeat left 4px; }
+.contact_box .branch_list > ul > li .city_msg .msg_cont ul li.faxes { background: url("../../../img/site/about/h_icon_pro8.png")/*tpa=http://1.rc.xiniu.com/img/site/about/h_icon_pro8.png*/ no-repeat left 4px; }
+
+/*关于我们*/
+/*团队介绍*/
+.team_introduce { width: 1200px; min-height: 215px; margin: 0 auto; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.team_introduce .team_list_cont { width: 1000px; min-height: 215px; margin: 0 auto; padding: 64px 0 80px 0; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.team_introduce .team_list_cont > ul { width: 100%; overflow: hidden; }
+.team_introduce .team_list_cont > ul li { width: 100%; height: 216px; }
+.team_introduce .team_list_cont > ul li > div { float: left; height: 216px; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.team_introduce .team_list_cont > ul li .photo_box { width: 175px; padding: 8px 14px 8px 0; }
+.team_introduce .team_list_cont > ul li .photo_box img { width: 160px; height: 199px; }
+.team_introduce .team_list_cont > ul li .introduce_info { width: 825px; padding: 65px 0; border-bottom: 1px dashed #e8e8e8; }
+.team_introduce .team_list_cont > ul li .introduce_info > div { height: 100%; overflow: hidden; float: left; -webkit-box-sizing: border-box; -khtml-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.team_introduce .team_list_cont > ul li .introduce_info .person_info { width: 140px; line-height: 30px; border-right: 1px solid #e8e8e8; text-align: center; padding-top: 12px; box-sizing: border-box; }
+.team_introduce .team_list_cont > ul li .introduce_info .person_info p:first-child { color: #848383; font-size: 15px; }
+.team_introduce .team_list_cont > ul li .introduce_info .person_info p:last-child { color: #3d3d3d; font-size: 18px; font-weight: 600; }
+.team_introduce .team_list_cont > ul li .introduce_info .introduce_cont { width: 682px; line-height: 21px; color: #848383; font-size: 14px; text-align: left; padding-left: 53px; word-break: break-all; text-indent: 25px; }
+.team_introduce .team_list_cont > ul li .introduce_info .introduce_cont span { color: #3d3d3d; font-weight: 600; }
+
+
+/*工号查询\创客查询*/
+.job_query_box { width: 1200px; min-height: 670px; background-color: #fff; margin: 0 auto; padding-top: 150px; box-sizing: border-box; }
+.job_query_box .query_box { width: 960px; min-height: 44px; margin: 0 auto; box-sizing: border-box; }
+.job_query_box .query_form { width: 100%; min-height: 40px; margin-bottom: 10px; }
+.job_query_box .query_form .from_label { height: 40px; line-height: 40px; float: left; color: #6a6a6a; font-size: 13px; margin-right: 10px; }
+.job_query_box .query_form input[type=text] { display: block; float: left; width: 132px; height: 40px; line-height: 38px; font-size: 14px; color: #828282; border: 1px solid #eee; padding-left: 22px; box-sizing: border-box; margin-right: 15px; font-family: "Microsoft YaHei", "微软雅黑"; }
+.job_query_box .query_form input[type=text]:focus { border: 1px solid #fd9999; -webkit-box-shadow: 0px 0px 10px #fd9f9f; -khtml-box-shadow: 0px 0px 10px #fd9f9f; -moz-box-shadow: 0px 0px 10px #fd9f9f; -ms-box-shadow: 0px 0px 10px #fd9f9f; -o-box-shadow: 0px 0px 10px #fd9f9f; box-shadow: 0px 0px 10px #fd9f9f; -webkit-transition: all ease-out 0.3s; -khtml-transition: all ease-out 0.3s; -moz-transition: all ease-out 0.3s; -ms-transition: all ease-out 0.3s; -o-transition: all ease-out 0.3s; transition: all ease-out 0.3s; }
+.job_query_box .query_form input[type=text]::-webkit-input-placeholder { color: #999 !important; }
+.job_query_box .query_form input[type=text]:-ms-input-placeholder { color: #999 !important; }
+.job_query_box .query_form input[type=text]:-moz-placeholder { color: #999 !important; }
+.job_query_box .query_form input[type=text]::-moz-placeholder { color: #999 !important; }
+.job_query_box .query_form input[type=text].xny_id { width: 274px; margin-right: 48px; }
+.job_query_box .query_form .ref_code { display: block; float: left; width: 48px; height: 40px; line-height: 40px; padding-left: 24px; box-sizing: border-box; margin: 0 25px 0 14px; background: url("../../../img/site/about/refresh_ver_code.png")/*tpa=http://1.rc.xiniu.com/img/site/about/refresh_ver_code.png*/ no-repeat left center; background-size: 18px 14px; color: #9ca1b2; font-size: 12px; }
+.job_query_box .query_form .ref_code:hover { color: #e52f35; }
+.job_query_box .query_form .btn_query { display: block; float: left; width: 139px; height: 40px; line-height: 40px; text-align: center; background-color: #ea353e; color: #fff; font-size: 16px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-transition: background-color ease-out 0.3s; -khtml-transition: background-color ease-out 0.3s; -moz-transition: background-color ease-out 0.3s; -ms-transition: background-color ease-out 0.3s; -o-transition: background-color ease-out 0.3s; transition: background-color ease-out 0.3s; }
+.job_query_box .query_form .btn_query:hover { background-color: #d51f25; }
+.job_query_box .query_form img { width: 127px; height: 40px; float: left; }
+.job_query_box .data_result { width: 960px; min-height: 170px; padding-top: 50px; margin: 0 auto; box-sizing: border-box; }
+.job_query_box .data_result .result_label { width: 100%; color: #666; font-size: 16px; margin-bottom: 10px; }
+.job_query_box .data_result table { width: 100%; background-color: #fff; box-sizing: border-box; }
+.job_query_box .data_result thead tr { background-color: #d9d9d9; height: 42px; box-sizing: border-box; }
+.job_query_box .data_result th { text-align: center; color: #505050; font-size: 15px; box-sizing: border-box; }
+.job_query_box .data_result td { text-align: center; color: #ea353e; font-size: 13px; height: 66px; line-height: 1.8; box-sizing: border-box; border-bottom: 1px solid  #ea353e; padding: 10px 10px; }
+.job_query_box .data_result td.t_l { text-align: left; }
+.job_query_box .query_desc { width: 960px; line-height: 1.8; margin: 70px auto 0 auto; font-size: 12px; color: #999; }
+.job_query_box .empty_date { width: 500px; min-height: 120px; padding-top: 64px; margin: 0 auto; box-sizing: border-box; background: url("../../../img/site/about/no_data_icon.png")/*tpa=http://1.rc.xiniu.com/img/site/about/no_data_icon.png*/ no-repeat top center; background-size: 56px 53px; }
+.job_query_box .empty_date .txt_msg { font-size: 24px; color: #484848; text-align: center; }
+.job_query_box .empty_date .txt_desc { font-size: 14px; color: #828282; text-align: center; padding-top: 15px; box-sizing: border-box; }
+.job_query_box .error_msg { width: calc( 100% - 75px ); font-size: 12px; color: #e52f35; padding-left: 20px; box-sizing: border-box; background: url("../../../img/site/about/error_tips_icon.png")/*tpa=http://1.rc.xiniu.com/img/site/about/error_tips_icon.png*/ no-repeat left center; background-size: 16px; margin-left: 75px; }
